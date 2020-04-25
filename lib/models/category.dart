@@ -12,7 +12,7 @@ List<Category> categories = categoriesData
 
 var categoriesData = [
   {"name": "Marketing", 'courses': 17, 'image': "assets/images/marketing.png"},
-  {"name": "UX Design", 'courses': 25, 'image': "assets/images/ux_design.png"},
+  {"name": "UX Design", 'courses': 25, 'image': "assets/images/ux_big.png"},
   {
     "name": "Photography",
     'courses': 13,
