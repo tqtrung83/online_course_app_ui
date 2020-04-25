@@ -107,8 +107,10 @@ class _HomeScreenState extends State<HomeScreen> {
                     Category category = categories[index];
                     return GestureDetector(
                       onTap: () {
-                        Navigator.of(context).push(
-                            MaterialPageRoute(builder: (_) => DetailScreen()));
+                        Navigator.of(context).push(MaterialPageRoute(
+                            builder: (_) => DetailScreen(
+                                  category: category,
+                                )));
                       },
                       child: Container(
                         height: index.isEven ? 200 : 240,
